@@ -190,7 +190,7 @@ public class GrapplingGun : MonoBehaviour
 
     public void Grab()
     {
-        HitPoint.transform.gameObject.GetComponent<Renderer>().material.color = Color.green;
+       
         HitPoint.transform.gameObject.GetComponent<Rigidbody2D>().AddForce(GameObject.FindGameObjectWithTag("Player").transform.position - HitPoint.transform.position);
 
 

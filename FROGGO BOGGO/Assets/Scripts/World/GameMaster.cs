@@ -8,16 +8,16 @@ public class GameMaster : MonoBehaviour
 
      private static GameMaster instance;
      public Vector2 lastCheckPointPos;
-    void Awake()
-    {
+    //void Awake()
+    //{
 
-        if(instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(instance);
-        } else
-        {
-            Destroy(gameObject);
-        }
-    }
+    //    if(instance == null)
+    //    {
+    //        instance = this;
+    //        DontDestroyOnLoad(instance);
+    //    } else
+    //    {
+    //        Destroy(gameObject);
+    //    }
+    //}
 }
