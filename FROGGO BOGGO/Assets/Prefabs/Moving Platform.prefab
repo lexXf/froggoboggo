@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9171067287563351599}
   - component: {fileID: 9171067287563351598}
   - component: {fileID: 3925759051802512675}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Moving Platform
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 9171067287563351593}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.33, y: 4.02, z: 0}
-  m_LocalScale: {x: 0.5400527, y: 1.4323163, z: 1}
+  m_LocalScale: {x: 1.5, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b3ddbc326c2dcad4f9057c36137ad78d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4039216, g: 0.31764707, b: 0.25490198, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -124,5 +124,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pos1: {fileID: 0}
   pos2: {fileID: 0}
-  speed: 2
+  speed: 6
   startPos: {fileID: 0}

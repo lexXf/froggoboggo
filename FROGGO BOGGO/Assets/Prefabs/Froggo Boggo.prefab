@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d3010fd8a319e404e9b52d7239407f6a, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.7526598, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.7526598, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -391,7 +391,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  ropeLaunchSpeedMultiplayer: 5.4
+  ropeLaunchSpeedMultiplayer: 20
   isGrappling: 0
   isGrabbable: 0
 --- !u!120 &832132522230594923
@@ -591,10 +591,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 7
+  m_Mass: 8
   m_LinearDrag: 0
   m_AngularDrag: 0.1
-  m_GravityScale: 6
+  m_GravityScale: 9
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Learning Grapple (Hard).unity
+- path: Assets/Scenes/Demo/DemoLevel.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

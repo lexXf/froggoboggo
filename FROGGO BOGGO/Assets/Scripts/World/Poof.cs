@@ -17,6 +17,7 @@ public class Poof : MonoBehaviour
     {
         if (col.gameObject.name.Equals ("Froggo Boggo") || col.gameObject.name.Equals("Grappling Gun"))
         {
+            gameObject.transform.GetComponent<Collider2D>().enabled = false;
             Destroy(gameObject, 0.5f);
         }
     }

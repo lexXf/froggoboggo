@@ -143,6 +143,7 @@ public class GrapplingGun : MonoBehaviour
 
 
             }
+            //GRABBING
             else if (_hit.transform.gameObject.tag == "Grappable" || grappleToAll)
             {
 
@@ -163,6 +164,7 @@ public class GrapplingGun : MonoBehaviour
 
 
             }
+            //MISSING
             else
             {
                 nothingHit();
@@ -305,7 +307,7 @@ public class GrapplingGun : MonoBehaviour
 
     IEnumerator limitGrappleTime()
     {
-        yield return new WaitForSeconds(.4f);
+        yield return new WaitForSeconds(.5f);
         isLineDrawn = false;
     }
 

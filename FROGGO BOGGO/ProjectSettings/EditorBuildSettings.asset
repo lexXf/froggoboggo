@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Demo/Main Menu.unity
+    guid: 66ee4576803826f4ba30ffcf05bf3800
+  - enabled: 1
+    path: Assets/Scenes/Demo/Learning Grapple (Hard).unity
+    guid: 23f7755dbdfba26449f471ec78f274dd
+  - enabled: 1
+    path: Assets/Scenes/Demo/DemoLevel.unity
+    guid: e0c3b8d4e7f57f646863c05642bca245
   m_configObjects: {}
