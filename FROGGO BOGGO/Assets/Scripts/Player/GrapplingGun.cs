@@ -72,7 +72,7 @@ public class GrapplingGun : MonoBehaviour
         ballRigidbody.gravityScale = 1;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         Mouse_FirePoint_DistanceVector = m_camera.ScreenToWorldPoint(Input.mousePosition) - gunPivot.position;
 
