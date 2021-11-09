@@ -15,7 +15,7 @@ public class ChangeLevel : MonoBehaviour
 
     void Start()
     {
-        gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
+        //gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -29,8 +29,11 @@ public class ChangeLevel : MonoBehaviour
 
     IEnumerator waitBeforeSwitchingToNextLevel()
     {
+
         jingle.Play();
         yield return new WaitForSeconds(4.2f);
         SceneManager.LoadScene(sceneToSwitchTo);
+        
+  
     }
 }
