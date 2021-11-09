@@ -11,6 +11,8 @@ public class ChangeLevel : MonoBehaviour
     private GameMaster gm;
     public int sceneToSwitchTo;
 
+    public AudioSource jingle;
+
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
@@ -20,8 +22,15 @@ public class ChangeLevel : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(sceneToSwitchTo);
+            spriteRenderer.sprite = Open_Bud;
+            StartCoroutine(waitBeforeSwitchingToNextLevel());
         }
     }
 
+    IEnumerator waitBeforeSwitchingToNextLevel()
+    {
+        jingle.Play();
+        yield return new WaitForSeconds(4.2f);
+        SceneManager.LoadScene(sceneToSwitchTo);
+    }
 }

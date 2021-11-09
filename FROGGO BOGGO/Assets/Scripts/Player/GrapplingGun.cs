@@ -62,6 +62,9 @@ public class GrapplingGun : MonoBehaviour
     private Vector2 direction;
     private bool isLineDrawn = false;
 
+    public AudioSource shootOutTongue;
+    public AudioSource missSound;
+
     private void Start()
     {
         grappleRope.enabled = false;
@@ -69,7 +72,7 @@ public class GrapplingGun : MonoBehaviour
         ballRigidbody.gravityScale = 1;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         Mouse_FirePoint_DistanceVector = m_camera.ScreenToWorldPoint(Input.mousePosition) - gunPivot.position;
 
@@ -78,6 +81,8 @@ public class GrapplingGun : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             SetGrapplePoint();
+
+            
         }
         else if (Input.GetKeyUp(KeyCode.Mouse0))
         {
@@ -140,7 +145,7 @@ public class GrapplingGun : MonoBehaviour
 
                 CurrentGrappledObject = _hit.transform;
                 //grapplePoint = new Vector2(CurrentGrappledObject.position.x, CurrentGrappledObject.position.y);
-
+                shootOutTongue.Play();
 
             }
             //GRABBING
@@ -157,7 +162,7 @@ public class GrapplingGun : MonoBehaviour
 
                 HitPoint = _hit;
 
-
+                shootOutTongue.Play();
                 // Move the two lines in Grab()
 
                 //ADD FORCE TOWARDS THE PLAYER
@@ -168,6 +173,8 @@ public class GrapplingGun : MonoBehaviour
             else
             {
                 nothingHit();
+
+                missSound.Play();
             }
 
 
@@ -185,6 +192,8 @@ public class GrapplingGun : MonoBehaviour
         else
         {
             nothingHit();
+
+            missSound.Play();
         }
     }
 
