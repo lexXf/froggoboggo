@@ -4,7 +4,6 @@ ScriptsOnlyBuild:
     - ChangeLevel
     - Checkpoint
     - Destory
-    - DontDestroyAudio
     - Falling_Brick
     - FollowPlayer
     - GameMaster
@@ -24,7 +23,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -102,35 +100,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 634}
     - Class: 114
-      Script: {instanceID: 2136}
+      Script: {instanceID: 1976}
     - Class: 114
-      Script: {instanceID: 2666}
+      Script: {instanceID: 2506}
     - Class: 114
-      Script: {instanceID: 2796}
+      Script: {instanceID: 2636}
     - Class: 114
-      Script: {instanceID: 2822}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2972}
+      Script: {instanceID: 2812}
     - Class: 114
-      Script: {instanceID: 2992}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 3092}
+      Script: {instanceID: 2932}
     - Class: 114
-      Script: {instanceID: 3320}
+      Script: {instanceID: 3160}
     - Class: 114
-      Script: {instanceID: 3692}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 3868}
+      Script: {instanceID: 3708}
     - Class: 114
-      Script: {instanceID: 3894}
+      Script: {instanceID: 3734}
     - Class: 114
-      Script: {instanceID: 3922}
+      Script: {instanceID: 3762}
     - Class: 114
-      Script: {instanceID: 3970}
+      Script: {instanceID: 3810}
     - Class: 114
-      Script: {instanceID: 5064}
+      Script: {instanceID: 4906}
     - Class: 114
-      Script: {instanceID: 5570}
+      Script: {instanceID: 5412}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -183,33 +181,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 634}
     - Class: 114
-      Script: {instanceID: 2666}
+      Script: {instanceID: 2506}
     - Class: 114
-      Script: {instanceID: 2796}
+      Script: {instanceID: 2636}
     - Class: 114
-      Script: {instanceID: 2822}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2972}
+      Script: {instanceID: 2812}
     - Class: 114
-      Script: {instanceID: 2992}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 3092}
+      Script: {instanceID: 2932}
     - Class: 114
-      Script: {instanceID: 3692}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 3868}
+      Script: {instanceID: 3708}
     - Class: 114
-      Script: {instanceID: 3894}
+      Script: {instanceID: 3734}
     - Class: 114
-      Script: {instanceID: 3922}
+      Script: {instanceID: 3762}
     - Class: 114
-      Script: {instanceID: 3970}
+      Script: {instanceID: 3810}
     - Class: 114
-      Script: {instanceID: 4760}
+      Script: {instanceID: 4602}
     - Class: 114
-      Script: {instanceID: 5064}
+      Script: {instanceID: 4906}
     - Class: 114
-      Script: {instanceID: 5570}
+      Script: {instanceID: 5412}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -258,27 +256,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1466}
     - Class: 114
-      Script: {instanceID: 1986}
+      Script: {instanceID: 1826}
     - Class: 114
-      Script: {instanceID: 2312}
+      Script: {instanceID: 2152}
     - Class: 114
-      Script: {instanceID: 2718}
+      Script: {instanceID: 2558}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2730}
     - Class: 114
-      Script: {instanceID: 2936}
+      Script: {instanceID: 2776}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 2918}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3148}
     - Class: 114
-      Script: {instanceID: 3432}
+      Script: {instanceID: 3272}
     - Class: 114
-      Script: {instanceID: 4662}
+      Script: {instanceID: 4504}
     - Class: 114
-      Script: {instanceID: 5022}
+      Script: {instanceID: 4864}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -327,33 +325,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 634}
     - Class: 114
-      Script: {instanceID: 2136}
+      Script: {instanceID: 1976}
     - Class: 114
-      Script: {instanceID: 2796}
+      Script: {instanceID: 2636}
     - Class: 114
-      Script: {instanceID: 2822}
+      Script: {instanceID: 2662}
     - Class: 114
-      Script: {instanceID: 2972}
+      Script: {instanceID: 2812}
     - Class: 114
-      Script: {instanceID: 2992}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 3092}
+      Script: {instanceID: 2932}
     - Class: 114
-      Script: {instanceID: 3320}
+      Script: {instanceID: 3160}
     - Class: 114
-      Script: {instanceID: 3692}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 3868}
+      Script: {instanceID: 3708}
     - Class: 114
-      Script: {instanceID: 3894}
+      Script: {instanceID: 3734}
     - Class: 114
-      Script: {instanceID: 3922}
+      Script: {instanceID: 3762}
     - Class: 114
-      Script: {instanceID: 3970}
+      Script: {instanceID: 3810}
     - Class: 114
-      Script: {instanceID: 4760}
+      Script: {instanceID: 4602}
     - Class: 114
-      Script: {instanceID: 5064}
+      Script: {instanceID: 4906}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1493,4 +1491,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Demo/Learning Grapple (Hard).unity
   - Assets/Scenes/Demo/DemoLevel.unity
   - Assets/Scenes/Demo/Walking the plank.unity
-  playerPath: C:/Users/devon/Desktop/Froggo Finished/FROGGO BOGGO.exe
+  playerPath: E:/uni/year 2/block 1/froggo boggo/gaem/FROGGO BOGGO.exe
